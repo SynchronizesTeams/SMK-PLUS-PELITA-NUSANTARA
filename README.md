@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+<h1 align="center" id="title">Front End - Web SMK PLUS PELITA NUSANTARA</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://socialify.git.ci/SynchronizesTeams/SMK-PLUS-PELITA-NUSANTARA/image?custom_description=Frontend+Web+SMK+PLUS+PELITA+NUSANTARA&amp;description=1&amp;font=Source+Code+Pro&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<p id="description">This repository is a repository/code base for developing the frontend section of the official website of SMK PLUS PELITA NUSANTARA. This website is fully developed by the Devaccto IT team of SMK PLUS PELITA NUSANTARA Software Engineering</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🛠️ Installation Steps:</h2>
 
-## Expanding the ESLint configuration
+<p>1. Clone this repository</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+git clone https://github.com/SynchronizesTeams/SMK-PLUS-PELITA-NUSANTARA.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<p>2. Enter into directory</p>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+cd SMK-PLUS-PELITA-NUSANTARA
+```
+
+<p>3. Install dependencies</p>
+
+```
+npm i
+```
+
+<p>4. Run development server</p>
+
+```
+npm run dev
+```
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
